@@ -1,0 +1,59 @@
+📁 Structure du projet Risk Blitz Simulator
+============================================
+
+risk-blitz-simulator/
+│
+├── 📄 index.html          # Page HTML principale
+│                          # Contient la structure de l'interface
+│
+├── 🎨 styles.css          # Feuille de styles CSS
+│                          # Design aux couleurs Risk (rouge/bleu)
+│                          # Responsive design
+│
+├── ⚙️ app.js              # Logique JavaScript
+│                          # Simulation des combats
+│                          # 50 commentaires sarcastiques
+│                          # Gestion de l'historique
+│
+├── 📦 package.json        # Configuration npm
+│                          # Métadonnées du projet
+│                          # Scripts de développement
+│
+├── 🚀 vercel.json         # Configuration Vercel
+│                          # Paramètres de déploiement
+│
+├── 📖 README.md           # Documentation principale
+│                          # Guide d'utilisation
+│                          # Fonctionnalités
+│
+├── 🚀 DEPLOYMENT.md       # Guide de déploiement
+│                          # Instructions Vercel/Netlify/GitHub Pages
+│
+├── 📜 LICENSE             # Licence MIT
+│
+├── 🚫 .gitignore          # Fichiers à ignorer par Git
+│
+└── 📋 STRUCTURE.txt       # Ce fichier (structure du projet)
+
+Taille totale : ~30 KB (ultra-léger !)
+
+Technologies utilisées :
+------------------------
+- HTML5
+- CSS3 (Flexbox, Grid, Gradients, Animations)
+- JavaScript ES6+ (Vanilla, pas de framework)
+- Aucune dépendance externe
+
+Prêt pour :
+-----------
+✅ Vercel
+✅ Netlify  
+✅ GitHub Pages
+✅ Hébergement statique simple
+
+Commandes utiles :
+------------------
+npm run dev       # Lance un serveur local
+vercel           # Deploy sur Vercel
+netlify deploy   # Deploy sur Netlify
+
