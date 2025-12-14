@@ -7,8 +7,8 @@ function initializeDropdowns() {
     const attackerSelect = document.getElementById('attackerTroops');
     const defenderSelect = document.getElementById('defenderTroops');
 
-    // Attaquant : de 2 à 50
-    for (let i = 2; i <= 50; i++) {
+    // Attaquant : de 2 à 30
+    for (let i = 2; i <= 30; i++) {
         const option = document.createElement('option');
         option.value = i;
         option.textContent = i;
@@ -16,8 +16,8 @@ function initializeDropdowns() {
         attackerSelect.appendChild(option);
     }
 
-    // Défenseur : de 1 à 50
-    for (let i = 1; i <= 50; i++) {
+    // Défenseur : de 1 à 30
+    for (let i = 1; i <= 30; i++) {
         const option = document.createElement('option');
         option.value = i;
         option.textContent = i;
